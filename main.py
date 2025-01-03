@@ -5,7 +5,7 @@ def main():
     chars_dict = character_count(text)
     sorted_dict = list_dict(chars_dict)
     
-    print("--- Begin report of books/frankenstein.txt ---")
+    print(f"--- Begin report of {book_path} ---")
     print(f"{num_words} words found in the document")
     print()
     
